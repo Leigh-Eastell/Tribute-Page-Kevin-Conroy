@@ -1,8 +1,9 @@
 img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px 10px,
-  }
+  display: block;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+  margin: 50 auto;
+  padding: 5px auto;
+}
