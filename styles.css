@@ -1,9 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 img {
   display: block;
   justify-content: center;
   align-items: center;
   max-width: 100%;
   height: auto;
-  margin: 50 auto;
-  padding: 5px auto;
+  margin: 0 auto;
+}
+
+main {
+  color: white;
+  background-color: navy; 
+}
+
+h1 {
+  margin-bottom: 20px;
+  background-color: navy;
+}
+
+p {
+  margin: 20px auto;
+  max-width: 63%;
 }
