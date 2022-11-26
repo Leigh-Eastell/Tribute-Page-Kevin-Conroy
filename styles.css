@@ -18,11 +18,37 @@ main {
 }
 
 h1 {
+  font-family: Trebuchet MS; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 300px;
+  border-radius: 50%;
+  color: black;
   margin-bottom: 20px;
-  background-color: navy;
+  background-color: yellow;
 }
 
 p {
+  font-family: Verdana;
   margin: 20px auto;
   max-width: 63%;
+}
+
+.img-caption {
+  display: flex;
+  justify-content: center;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: yellow;
 }
